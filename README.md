@@ -1,18 +1,20 @@
 # Metagenomic-Taxonomy-Visualization
 R script to visualize Kraken2 metagenomic data using Stacked Barplot and Dumbbell Plot
 
-Repository ini berisi skrip R untuk memvisualisasikan data hasil analisis taksonomi (Kraken2/Bracken) dari sampel metagenomik.
+This repository contains R scripts for visualizing taxonomic analysis results (Kraken2/Bracken) from metagenomic samples.
 
-## Fitur
-- Pembersihan data dan pembuangan reads "unclassified".
-- Normalisasi ulang (Re-normalization) berdasarkan reads terklasifikasi.
-- Visualisasi **Stacked Barplot** (Komposisi Komunitas).
-- Visualisasi **Dumbbell Plot** (Perbandingan Kelimpahan Spesifik).
+## Features
+* **Data Cleaning:** Removal of "unclassified" reads.
+* **Re-normalization:** Re-calculation of relative abundances based on classified reads only.
+* **Stacked Barplot Visualization:** Visualizes Community Composition across samples.
+* **Dumbbell Plot Visualization:** Compares Specific Abundance changes between groups or conditions.
 
-## Hasil Visualisasi
-![Stacked Barplot](stacked_barplot_genus_final.png)
-*(Pastikan Anda mengupload gambar hasil plot ke repo agar bisa ditampilkan di sini)*
+## Requirements
+To run the script, ensure you have R installed along with the following packages:
+* `tidyverse`
+* `scales`
+* `ggalt` (if used for dumbbell plots)
 
-## Cara Menggunakan
-1. Siapkan file input format tabular (`.tabular` atau `.tsv`).
-2. Jalankan script `script_name.R`.
+Run this in R to install them:
+```r
+install.packages(c("tidyverse", "scales", "ggalt"))
