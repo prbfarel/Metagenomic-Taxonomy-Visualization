@@ -10,7 +10,7 @@ This repository contains R scripts for visualizing taxonomic analysis results (K
 * **Dumbbell Plot Visualization:** Compares Specific Abundance changes between groups or conditions.
 
 ## Visualization Result
-![Stacked Barplot](Documentaries/stacked_barplot_famili.png)
+<img src="Documentaries/stacked_barplot_famili.png" alt="Stacked Barplot" width="50%"/>
 
 ## Requirements
 To run the script, ensure you have R installed along with the following packages:
