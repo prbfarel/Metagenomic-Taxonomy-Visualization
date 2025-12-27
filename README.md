@@ -9,6 +9,9 @@ This repository contains R scripts for visualizing taxonomic analysis results (K
 * **Stacked Barplot Visualization:** Visualizes Community Composition across samples.
 * **Dumbbell Plot Visualization:** Compares Specific Abundance changes between groups or conditions.
 
+## Visualization Result
+![Stacked Barplot](stacked_barplot_famili.png)
+
 ## Requirements
 To run the script, ensure you have R installed along with the following packages:
 * `tidyverse`
